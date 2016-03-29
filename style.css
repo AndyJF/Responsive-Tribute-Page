@@ -1,0 +1,124 @@
+body {
+  background: #025976;
+}
+
+.main-background {
+  background-color: #0392C2;
+  border-radius: 5px;
+  padding: 0px 0px 20px 0px;
+}
+
+.title {
+  font-size: 35px;
+  font-family: Arial;
+  color: #012430;
+  margin: 20px 20px -5px 20px;
+  padding: 20px 20px 3px 20px;
+}
+
+.title-summary {
+  font-size: 20px;
+  font-family: Arial;
+  color: #012430;
+  margin: 0px 20px 0px 20px;
+  padding: 0px 20px 10px 20px
+}
+
+.image-box img {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  max-width: 100%;
+}
+
+.image-box {
+  color: #012430;
+  font-size: 15px;
+  font-family: Arial;
+  background-color: #77CEEB;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+  margin: 0px 200px;
+}
+
+.paragraph {
+  overflow: auto;
+  background-color: #77CEEB;
+  color: #012430;
+  padding: 20px;
+  margin: 20px 200px;
+  border-radius: 5px;
+}
+
+.p-text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.vid-container {
+  background-color: #77CEEB;
+  margin: 0px 200px 20px 200px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.vid-container-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.vid-container-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+.line-separator {
+  border-color: #0392C2;
+}
+
+.link-summary {
+  float: left;
+  background-color: #0392C2;
+  color: #00212C;
+  padding: 5px;
+  border-radius: 5px;
+  border: 5px
+}
+
+.wiki-link {
+  background-color: #77CEEB;
+  color: #012430;
+  font-size: 20px;
+  padding: 5px;
+  margin: 0px 200px;
+  border-radius: 5px;
+}
+
+a:link {
+  text-decoration: none;
+  text-align: left;
+  color: #0A2DCB;
+}
+
+a:visited {
+  text-decoration: none;
+  text-align: left;
+  color: #0A2DCB;
+}
+
+a:hover {
+  text-decoration: none;
+  text-align: left;
+  color: #3655E3;
+}
+
+a:active {
+  text-decoration: underline;
+  text-align: left;
+  color: #3655E3;
+}
